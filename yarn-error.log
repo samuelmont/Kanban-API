@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /home/samuel/.yarn/bin/yarn.js add ts-node-dev typescript -D
+
+PATH: 
+  /home/samuel/.yarn/bin:/home/samuel/.config/yarn/global/node_modules/.bin:/home/samuel/.yarn/bin:/home/samuel/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz: Request failed "503 Service Unavailable"
+      at ResponseError.ExtendableBuiltin (/home/samuel/.yarn/lib/cli.js:696:66)
+      at new ResponseError (/home/samuel/.yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/home/samuel/.yarn/lib/cli.js:66215:16)
+      at Request.emit (node:events:513:28)
+      at Request.module.exports.Request.onRequestResponse (/home/samuel/.yarn/lib/cli.js:141767:10)
+      at ClientRequest.emit (node:events:513:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:674:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at TLSSocket.socketOnData (node:_http_client:521:22)
+      at TLSSocket.emit (node:events:513:28)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
